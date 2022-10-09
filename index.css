@@ -58,3 +58,54 @@ h5{
     object-fit: cover;
 
 }
+/* square images */
+.img-sq-l{
+    width:100%;
+    height:468px;
+    padding:0px 10px 0px 10px;
+    object-fit: cover;
+}
+.img-sq-r{
+    width:100%;
+    height:468px;
+    padding:0px 10px 0px 0px;
+    object-fit: cover;
+}
+.row-pad{
+    padding:10px;
+}
+.rem-pad{
+    padding:0;
+}
+.pad-top{
+    padding-top:10px;
+}
+/* About Us */
+
+/* Events */
+#events, #about-us{
+    margin-top:50px;
+    text-align:center;
+}
+#events h2, #about-us h2{
+    font-weight:bold;
+    letter-spacing:5px;
+} 
+#events a{
+    font-size:1em;
+    font-weight: normal;
+    text-decoration: none;
+    color: var(--color-main1);
+    letter-spacing: 1px;
+} 
+#events a:hover{
+    font-weight: bold;
+}
+.events-img{
+    margin-top:10px;
+    width:calc(100% - 5px);
+    transition: all ease-in-out 0.3s 0.05s;
+}
+.events-img:hover{
+    transform:scale(1.05);
+}
