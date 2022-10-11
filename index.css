@@ -15,6 +15,10 @@ body{
     padding:0;
     font-family: 'Inter Tight', sans-serif;
 }
+/* accessories */
+.border-right{
+    border-right: 5px solid gray;
+}
 /* navbar */
 #logo{
     margin-left:20px;
@@ -81,7 +85,31 @@ h5{
     padding-top:10px;
 }
 /* About Us */
-
+.about-container h3{
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    transition: all ease-in 0.5s 0s;
+}
+.about-container p{
+    text-align: center;
+}
+.about-container{
+    min-width:250px;
+    width:400px;
+    height:500px;
+}
+.about-container:hover h3{
+    border-bottom: 1px solid var(--color-main1);
+}
+.about-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+    text-align: left;
+}
 /* Events */
 #events, #about-us{
     margin-top:50px;
@@ -90,16 +118,19 @@ h5{
 #events h2, #about-us h2{
     font-weight:bold;
     letter-spacing:5px;
+    color:var(--color-main1);
 } 
 #events a{
     font-size:1em;
     font-weight: normal;
     text-decoration: none;
-    color: var(--color-main1);
+    color: var(--color-main2);
+
     letter-spacing: 1px;
 } 
 #events a:hover{
     font-weight: bold;
+    color: var(--color-main1);
 }
 .events-img{
     margin-top:10px;
@@ -109,3 +140,5 @@ h5{
 .events-img:hover{
     transform:scale(1.05);
 }
+
+
