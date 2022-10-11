@@ -138,6 +138,7 @@ ul{
     }
     .about-container p{
         font-size:1.2em;
+        text-align: justify;
     }
 }
 /* Events */
