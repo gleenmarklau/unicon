@@ -130,7 +130,14 @@ ul{
         text-align: center;
         width:400px;
         height:400px;
-        padding:0 10px;
+        padding:0 20px;
+    }
+    .about-container h3{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    .about-container p{
+        font-size:1.2em;
     }
 }
 /* Events */
